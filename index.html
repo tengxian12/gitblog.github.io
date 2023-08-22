@@ -1,0 +1,436 @@
+<html lang="zh-CN">
+<head> 
+    <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=0.9, maximum-scale=1.0, minimum-scale=0.9, user-scalable=0, width=device-width">
+    <meta itemprop="name" content="tengの个人主页">
+<meta itemprop="image" content="https://q1.qlogo.cn/headimg_dl?dst_uin=QQ号&spec=100" />
+<meta name="description" itemprop="description" content="我只是呆呆地等一场雪，心生欢喜" />
+	<meta name="keywords" content="tengの个人主页">
+	<meta name="description" content=""所谓的奇迹，要真的发生才有价值。"">
+    <title>tengの个人主页</title>
+    
+    <meta property="og:type" content="website">
+
+    <meta property="og:url" content="#">
+
+    <meta property="og:image" content="https://www.hualigs.cn/image/64707e242ad5d.jpg">
+
+    <meta property="og:title" content="tengの个人主页">
+
+    <meta property="og:description" content="tengの个人主页">
+
+    <link rel="canonical" href="#">
+
+    <link rel="shortcut icon" href="https://github.com/tengxian12/gitpictures.github.io/blob/main/img/pika.jpg">
+
+    <link rel="bookmark" href="https://github.com/tengxian12/gitpictures.github.io/blob/main/img/pika.jpg">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://q1.qlogo.cn/headimg_dl?dst_uin=1926214078&spec=100">
+	
+    <link rel="stylesheet" type="text/css" href="css/dark.css" id="css">
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css">
+    <script src="js/script.js" type="text/javascript"></script>
+    <script src="js/dark.js"  type="text/javascript"></script>
+ 
+ <!-----------------------------------------测试-------------------------------------------------->
+<script>
+	jQuery(document).ready(function() {
+	var QRBox	=	$('#QRBox');
+	var MainBox	=	$('#MainBox');
+	var AliPayQR	=	"https://www.hualigs.cn/image/64716cff55bd2.jpg"; //支付宝二维码
+	var WeChanQR	=	"https://github.com/tengxian12/gitpictures.github.io/blob/main/img/2.jpg"; //微信二维码
+	var QQQR     	=	"https://github.com/tengxian12/gitpictures.github.io/blob/main/img/qq.jpg"; //QQ二维码
+
+	
+
+	function showQR(QR) {
+		if (QR) {
+			MainBox.css('background-image','url(' + QR + ')');
+		}
+		$('#DonateText,#donateBox,#github').addClass('blur');
+		QRBox.fadeIn(300,function(argument) {
+			MainBox.addClass('showQR');
+		});
+	}
+
+	$('#donateBox>li').click(function(event) {
+		var thisID	=	$(this).attr('id');
+	if (thisID === 'AliPay') {
+			showQR(AliPayQR);
+		} else if (thisID === 'WeChat') {
+			showQR(WeChanQR);
+		} else if (thisID === 'QQ') {
+			showQR(QQQR);
+		
+		}
+	});
+
+	MainBox.click(function(event) {
+		MainBox.removeClass('showQR').addClass('hideQR');
+		setTimeout (function(a) {
+			QRBox.fadeOut(300,function(argument) {
+				MainBox.removeClass('hideQR');
+			});
+			$('#DonateText,#donateBox,#github').removeClass('blur');
+		},600);
+
+	});
+});
+</script>
+
+   <style>
+        .zuobiao i {
+            line-height: 1.8;
+            margin-right: 6px;
+            vertical-align: middle;
+            background-image: url(images/zuobiao.svg);
+            background-size: 100%;
+            width: 16px;
+            height: 16px;
+            display: inline-block;
+            margin-top: -2px;
+        }
+       
+    </style>
+    <style>
+     .user-warp img {
+            width:70px;
+            border-radius:30%;
+           }
+	    
+/*.dark-theme .user-warp img {
+            width:70px;
+            border-radius:100%;
+            animation: light 5s ease-in-out infinite;
+            transition: 0.5s;}*/
+
+
+	
+	    @keyframes light {
+ 0%{box-shadow: 0 0 4px #f00;}
+ 25%{box-shadow: 0 0 5px #0f0;} 
+ 50%{box-shadow: 0 0 4px #00f;}
+ 75%{box-shadow: 0 0 5px #0f0;} 
+ 100%{box-shadow: 0 0 4px #f00;}
+}
+      </style>
+
+</head>
+
+<body>
+	 
+<div class="wrapper">
+<header>
+    <nav class="navbar" id="mobile-toggle-theme">
+        <div class="container"></div>
+    </nav>
+
+    <!------------------------------------------------------------------------------------------->
+    
+     
+</header> 
+
+    <div class="main">
+
+        <div class="container">
+            <div class="intro" style=" line-height: 50px">
+                <div class="user-warp img"><a href="#" target="_blank"><img src="https://www.hualigs.cn/image/64707e242ad5d.jpg" alt="tengの个人主页"></a></div>
+                <div class="nickname">teng</div>
+                <div class="description">
+                    <p>“永远热爱自己”</p>
+
+                </div>
+
+
+                <div class="zuobiao">
+                    <i class="ico_map"></i>中国 · 武汉
+                    <span style="margin-left: 30px">
+                            <input id="switch_default" type="checkbox" class="switch_default">
+                            <label for="switch_default" class="toggleBtn"></label></span>
+                </div>
+
+
+                
+                <div class="menu navbar-right links">
+
+                    <!-- 获取页面列表 -->
+
+                    <a class="menu-item" href="https://qm.qq.com/q/1qzYBqwLNm&personal_qrcode_source=3" target="_blank">
+                    QQ</a> · 
+
+                    <a class="menu-item" href="https://b23.tv/QsRcRyq" target="_blank">
+                    抖音</a> ·
+			
+		 <a class="menu-item" href="h https://v.douyin.com/iJsue4rD/" target="_blank">
+                  开心</a> ·
+                    
+                   有点酷</a> 
+<center>
+
+<div id="header">
+</div>
+<div id="main">
+	<div class="demo">
+		
+			
+        <div id="player3" class="aplayer">
+            <pre class="aplayer-lrc-content">
+               
+[00:00.00] 20XX年XX月XX日
+
+[00:00.95] 有一个小屁孩
+                
+[00:01.95]名叫teng
+          
+[00:02.95]今天是他生日
+          
+[00:03.95]他吐血做了个网页
+          
+[00:04.95]
+          
+[00:05.95]让时间成为礼物
+
+[00:06.95]活成自己喜欢的样子
+
+[00:07.95]嘿嘿         
+
+[00:08.95]祝你生日快乐
+
+[00:28.95]故事的小黄花               
+
+[00:32.38]从出生那年就飘着
+                
+[00:35.87]童年的荡秋千
+
+[00:39.37]随记忆一直晃到现在
+
+[00:42.44]Re So So Si Do Si La
+
+[00:45.53So La Si Si Si Si La Si La So
+
+[00:49.57]吹着前奏望着天空
+
+[00:52.87]我想起花瓣试着掉落
+
+[00:56.41]为你翘课的那一天
+
+[00:58.55]花落的那一天
+
+[01:00.19]教室的那一间
+
+[01:01.99]我怎么看不见
+
+[01:03.88]消失的下雨天
+
+[01:05.41]我好想再淋一遍
+
+[01:09.75]没想到失去的勇气我还留着
+
+[01:15.53]好想再问一遍
+
+[01:17.52]你会等待还是离开
+
+[01:24.50]刮风这天我试过握着你手
+
+[01:30.08]但偏偏雨渐渐大到我看你不见
+
+[01:38.45]还要多久我才能在你身边
+
+[01:44.87]等到放晴的那天也许我会比较好一点
+
+[01:52.33]从前从前有个人爱你很久
+
+[01:57.96]但偏偏风渐渐把距离吹得好远
+
+[02:06.24]好不容易又能再多爱一天
+
+[02:12.91]但故事的最后你好像还是说了拜拜
+
+[02:34.66]为你翘课的那一天
+
+[02:36.50]花落的那一天
+
+[02:38.30]教室的那一间
+
+[02:40.04]我怎么看不见
+
+[02:41.78]消失的下雨天
+
+[02:43.68]我好想再淋一遍
+
+[02:47.61]没想到失去的勇气我还留着
+
+[02:54.09]好想再问一遍
+
+[02:55.65]你会等待还是离开
+
+[03:02.47]刮风这天我试过握着你手
+
+[03:07.90]但偏偏雨渐渐大到我看你不见
+
+[03:16.42]还要多久我才能在你身边
+
+[03:22.90]等到放晴的那天也许我会比较好一点
+
+[03:30.31]从前从前有个人爱你很久
+
+[03:36.44]偏偏风渐渐把距离吹得好远
+
+[03:44.29]好不容易又能再多爱一天
+
+[03:50.77]但故事的最后你好像还是说了拜拜
+
+[03:58.01]刮风这天我试过握着你手
+
+[04:01.76]但偏偏雨渐渐大到我看你不见
+
+[04:05.05]还要多久我才能够在你身边 
+
+[04:08.63]等到放晴那天也许我会比较好一点
+                
+[04:12.57]从前从前有个人爱你很久
+
+[04:15.51]但偏偏雨渐渐把距离吹得好远
+               
+[04:18.95]好不容易又能再多爱一天  
+                                          
+[04:22.43]但故事的最后你好像还是说了拜
+           
+            </pre>
+        </div>
+	</div>
+</div>
+<script>
+	var ap3 = new APlayer({
+		element: document.getElementById('player3'),//样式1
+		narrow: false,
+		autoplay: false,
+		showlrc: true,
+		music: {
+            title: '晴天',
+			author: '周杰伦',
+			url: './bgm.mp3',
+			pic: 'http://p1.music.126.net/vmCcDvD1H04e9gm97xsCqg==/109951163350929740.jpg?param=300x300'
+        }
+	});
+	ap3.init();
+</script>
+
+	</center>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+ 
+ 
+ 
+ 
+ 
+    <!------------------------------------------------------------------------------------------->
+    
+   
+
+
+
+
+
+	<!------------------------------------------------------------------------------------------->
+                </div><br>
+	           <div style=" line-height: 20px;font-size: 9pt;">
+                    <p>"Have a nice day!"</p>
+                        <p style="margin-left: 8rem;font-size: 8pt;"><small> — teng</small></p>
+			
+			
+                </div>
+                
+        <br>
+                 <center>
+	<ul id="donateBox" class="list pos-f tr3">
+		
+		<li id="WeChat">WeChat</li>
+		<li id="QQ">QQ</li>
+		
+	</ul>
+	<div id="QRBox" class="pos-f left-100">
+		<div id="MainBox"></div>
+	</div>
+</center>
+                <!-- <a href="https://beian.miit.gov.cn/" target="_blank">皖ICP备16005944号-5</a> -->
+            </div>
+            
+            
+        </div>
+
+</div>
+
+<footer id="footer" class="footer">
+         	
+		 <div class="stars">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+    </div>
+    
+    	<!------------------------------------------------------------------------------------------->
+		
+	
+	
+</footer>
+
+</div>
+
+
+</html>

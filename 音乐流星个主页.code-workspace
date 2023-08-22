@@ -1,0 +1,19 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../Glass-UI-master"
+    },
+    {
+      "path": "../酷黑前端个人主页"
+    },
+    {
+      "path": "../升级版生日祝福"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "音乐流星个主页"
+  }
+}
